@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+<body>
+    <main>
+        <section>
+
+            <div class="top">
+                <input type="text" disabled placeholder="0" id="textarea">
+            </div>
+            <div class="bottom">
+                <button onclick='ac()'class="white">AC</button>
+                <button onclick="square()" id="sq"class="white">SQ</button>
+                <button id="power" class="white" onclick="raise()">^</button>
+                <button onclick='divide()'id="divide" class="yellow">/</button>
+                <button onclick="seven()" id="seven" class="black">7</button>
+                <button onclick = 'eight()' id="eight" class="black">8</button>
+                <button onclick = 'nine()'id="nine"class="black">9</button>
+                <button onclick="times()" class="yellow">X</button>
+                <button onclick = 'four()'id="four" class="black">4</button>
+                <button onclick = 'five()'id="five" class="black">5</button>
+                <button onclick = 'six()'id="six" class="black">6</button>
+                <button onclick="minus()" id="minus"class="yellow">-</button>
+                <button  onclick = 'one()' id="one" class="black">1</button>
+                <button onclick = 'two()' id="two" class="black">2</button>
+                <button onclick = 'three()'id="three" class="black">3</button>
+                <button onclick="plus()"class="yellow">+</button>
+                <button onclick = "zero()"id ="zero"class="bigger black">0</button>
+                
+                <button onclick="dot()" class="black">.</button>
+                <button id = 'equals'class="yellow" onclick="equals()">=</button>
+            </div>
+        </section>
+
+    </main>
+    <script src="./calculator.js"></script>
+</body>
+</html>

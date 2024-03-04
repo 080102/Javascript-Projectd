@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main section{
+    height: 90%;
+    width: 25%;
+    background: linear-gradient(silver, black ) 
+    /* */
+}
+main section .top{
+    height: 20%;
+    width: 100%;
+    /* background-color: azure; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main section .top input{
+    /* height: 5em; */
+    width: 90%;
+    border: none;
+    /* background-color: lavender; */
+    /* font-size: larger; */
+    font-size: 3em;
+    color: black;
+}
+main section .top input:placeholder-shown{
+    /* font-weight: bold; */
+    text-align: right;
+    font-size: 3em;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: lightgrey
+}
+main section .bottom{
+    height: 80%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: flex-start; */
+    justify-content: center;
+    margin-top: 3%;
+    
+    /* align-items: center; */
+}
+main section .bottom button{
+    height: 5em;
+    width: 5em;
+    border-radius: 5em;
+    border: none;
+    margin: 1%;
+    font-weight: bold;
+    font-size: 14px;
+}
+main section .bottom button:hover{
+    background-color: darkgrey;
+}
+main section .bottom .bigger{
+    width: 11em;
+    text-align: left;
+    padding-left: 5%;
+}
+main section .bottom .white{
+    background-color: whitesmoke;
+    
+}
+main section .bottom .yellow{
+    background-color: goldenrod;
+    color: white;
+}
+main section .bottom .yellow:hover{
+    background-color: darkorange;
+}
+main section .bottom .black{
+    background-color: black;
+    color: white;
+}
+main section .bottom button p{
+    
+}
