@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: lavenderblush;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main div{
+    height: 45%;
+    width: 50%;
+    background-color: teal;
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    border-radius: 7px;
+}
+main div input{
+    height: 3em;
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 5%;
+    border: 1px solid black;
+    border-radius: 7px;
+    text-align: center;
+}
+main div button{
+    margin-bottom: 25%;
+    width: 30%;
+    margin-left: 35%;
+    background-color: orangered;
+    color: white;
+    border: none;
+    font-size: large;
+}
